@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+body{
+    background-color:  rgb(189, 245, 237);
+
+}
+header {
+    border: 1px solid black;
+    display: block;
+    margin: 30px auto;
+    width: 80%;
+    text-align: center;
+    background-color: #57edcd;
+    transform: skewX(-10deg);
+}
+
+.container {
+    border: 1px solid black;
+    display: block;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.user-input input {
+    width: 370px;
+    height: 30px;
+    padding: 0px 10px;
+}
+
+#task_button {
+    width: 100px;
+    padding: 7px;
+    cursor: pointer;
+    height: 34px;
+    background-color: #57edcd;
+    
+    border: 1px solid black;
+
+}
+
+ul {
+    padding-left: 20px;
+    margin: 20px;
+    overflow-y: auto;
+    max-height: 50vh;
+    border: 1px solid black;
+    font-size: 18px;
+    height: 50vh;
+}
+
+ul li {
+    list-style: decimal;
+    margin-left: 15px;
+
+}
+
+input[type="checkbox"] {
+    scale: 1.1;
+    margin-right: 10px;
+    margin-left: -5px;
+}
+
+.completed {
+    /* color: gray; */
+    transition: opacity 0.5s ease-out;
+    /* opacity: 0.5; */
+    text-decoration: line-through;
+}
+
+#reset_button{
+    width: 110px;
+    padding: 7px;
+    cursor: pointer;
+    height: 34px;
+    background-color: #57edcd;
+    
+    outline: none;
+    border: 1px solid black;
+}
+
